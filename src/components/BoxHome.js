@@ -10,7 +10,7 @@ const BoxHome = ({children}) => {
       style={{
         width: setWidth(90),
         backgroundColor: Colors.Primary,
-        marginVertical: 15,
+        marginBottom: 10,
         borderRadius: 12,
         paddingHorizontal: 15,
         paddingVertical: 20,

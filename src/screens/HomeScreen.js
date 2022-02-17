@@ -1,6 +1,7 @@
 import {
   Image,
   SafeAreaView,
+  ScrollView,
   StatusBar,
   StyleSheet,
   Text,
@@ -38,19 +39,24 @@ const HomeScreen = () => {
       {/* Header End */}
 
       {/* Body */}
-      <View style={{marginTop: setHeight(15), alignItems: 'center'}}>
-        <Text
-          style={{
-            width: setWidth(90),
-            textAlign: 'center',
-            fontFamily: Fonts.EC_Bold,
-            fontSize: 22,
-            color: '#000',
-          }}>
-          Lorem ipsum dolor sit amet,cons ectetur adipiscing elit.{' '}
-        </Text>
-        <Box> - Lorem ipsum dolor sit amet. </Box>
-      </View>
+      <ScrollView>
+        <View style={{marginTop: setHeight(15), alignItems: 'center'}}>
+          <Text
+            style={{
+              width: setWidth(90),
+              textAlign: 'center',
+              fontFamily: Fonts.EC_Bold,
+              fontSize: 22,
+              color: '#000',
+              marginBottom: 15,
+            }}>
+            Lorem ipsum dolor sit amet,cons ectetur adipiscing elit.{' '}
+          </Text>
+          <Box> - Lorem ipsum dolor sit amet. </Box>
+          <Box> - Lorem ipsum dolor sit amet. </Box>
+          <Box> - Lorem ipsum dolor sit amet. </Box>
+        </View>
+      </ScrollView>
       {/* End Body */}
     </SafeAreaView>
   );
