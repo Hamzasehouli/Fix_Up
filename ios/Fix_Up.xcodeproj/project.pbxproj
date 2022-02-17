@@ -12,6 +12,16 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F045188BCC3B4953A1BEFC52 /* Euclid Circular B Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11BB11E081B84BB3A8D899AA /* Euclid Circular B Bold Italic.ttf */; };
+		17EF7265354D48B698FFC211 /* Euclid Circular B Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE6462DB8585424DBE604364 /* Euclid Circular B Bold.ttf */; };
+		3CE150CABCDE44F0BBFF757C /* Euclid Circular B Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA22B3D35A7145449DBB5EFC /* Euclid Circular B Italic.ttf */; };
+		B630A4E131364A22A6715989 /* Euclid Circular B Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5011BDAC034A4DA4738237 /* Euclid Circular B Light Italic.ttf */; };
+		31367C55692A40ED80C6F450 /* Euclid Circular B Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA173BC493DA435A91B9E740 /* Euclid Circular B Light.ttf */; };
+		FC7FBF82BCAC43319E10F9F1 /* Euclid Circular B Medium Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 927EE0133FE9413AA3765574 /* Euclid Circular B Medium Italic.ttf */; };
+		0998E4D86B3C4AE4BACFE457 /* Euclid Circular B Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDE921B5E1C34F649C5F1498 /* Euclid Circular B Medium.ttf */; };
+		E0A5364E2244418C8836E5A5 /* Euclid Circular B Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A968821847374D17ACEA04DE /* Euclid Circular B Regular.ttf */; };
+		C910816495B245C6A2DB2A6E /* Euclid Circular B SemiBold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47109331D06B4752ADBE5842 /* Euclid Circular B SemiBold Italic.ttf */; };
+		69E1DBA7A5EC4178BE3B55B2 /* Euclid Circular B SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48B897C61F314F47B93B72C2 /* Euclid Circular B SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Fix_Up/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Fix_Up/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		11BB11E081B84BB3A8D899AA /* Euclid Circular B Bold Italic.ttf */ = {isa = PBXFileReference; name = "Euclid Circular B Bold Italic.ttf"; path = "../assets/fonts/Euclid Circular B Bold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE6462DB8585424DBE604364 /* Euclid Circular B Bold.ttf */ = {isa = PBXFileReference; name = "Euclid Circular B Bold.ttf"; path = "../assets/fonts/Euclid Circular B Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA22B3D35A7145449DBB5EFC /* Euclid Circular B Italic.ttf */ = {isa = PBXFileReference; name = "Euclid Circular B Italic.ttf"; path = "../assets/fonts/Euclid Circular B Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AC5011BDAC034A4DA4738237 /* Euclid Circular B Light Italic.ttf */ = {isa = PBXFileReference; name = "Euclid Circular B Light Italic.ttf"; path = "../assets/fonts/Euclid Circular B Light Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA173BC493DA435A91B9E740 /* Euclid Circular B Light.ttf */ = {isa = PBXFileReference; name = "Euclid Circular B Light.ttf"; path = "../assets/fonts/Euclid Circular B Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		927EE0133FE9413AA3765574 /* Euclid Circular B Medium Italic.ttf */ = {isa = PBXFileReference; name = "Euclid Circular B Medium Italic.ttf"; path = "../assets/fonts/Euclid Circular B Medium Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDE921B5E1C34F649C5F1498 /* Euclid Circular B Medium.ttf */ = {isa = PBXFileReference; name = "Euclid Circular B Medium.ttf"; path = "../assets/fonts/Euclid Circular B Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A968821847374D17ACEA04DE /* Euclid Circular B Regular.ttf */ = {isa = PBXFileReference; name = "Euclid Circular B Regular.ttf"; path = "../assets/fonts/Euclid Circular B Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47109331D06B4752ADBE5842 /* Euclid Circular B SemiBold Italic.ttf */ = {isa = PBXFileReference; name = "Euclid Circular B SemiBold Italic.ttf"; path = "../assets/fonts/Euclid Circular B SemiBold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48B897C61F314F47B93B72C2 /* Euclid Circular B SemiBold.ttf */ = {isa = PBXFileReference; name = "Euclid Circular B SemiBold.ttf"; path = "../assets/fonts/Euclid Circular B SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +129,7 @@
 				00E356EF1AD99517003FC87E /* Fix_UpTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				A6F8964BC6E54C748EEDD39A /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +144,24 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		A6F8964BC6E54C748EEDD39A /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				11BB11E081B84BB3A8D899AA /* Euclid Circular B Bold Italic.ttf */,
+				AE6462DB8585424DBE604364 /* Euclid Circular B Bold.ttf */,
+				FA22B3D35A7145449DBB5EFC /* Euclid Circular B Italic.ttf */,
+				AC5011BDAC034A4DA4738237 /* Euclid Circular B Light Italic.ttf */,
+				FA173BC493DA435A91B9E740 /* Euclid Circular B Light.ttf */,
+				927EE0133FE9413AA3765574 /* Euclid Circular B Medium Italic.ttf */,
+				DDE921B5E1C34F649C5F1498 /* Euclid Circular B Medium.ttf */,
+				A968821847374D17ACEA04DE /* Euclid Circular B Regular.ttf */,
+				47109331D06B4752ADBE5842 /* Euclid Circular B SemiBold Italic.ttf */,
+				48B897C61F314F47B93B72C2 /* Euclid Circular B SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +253,16 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F045188BCC3B4953A1BEFC52 /* Euclid Circular B Bold Italic.ttf in Resources */,
+				17EF7265354D48B698FFC211 /* Euclid Circular B Bold.ttf in Resources */,
+				3CE150CABCDE44F0BBFF757C /* Euclid Circular B Italic.ttf in Resources */,
+				B630A4E131364A22A6715989 /* Euclid Circular B Light Italic.ttf in Resources */,
+				31367C55692A40ED80C6F450 /* Euclid Circular B Light.ttf in Resources */,
+				FC7FBF82BCAC43319E10F9F1 /* Euclid Circular B Medium Italic.ttf in Resources */,
+				0998E4D86B3C4AE4BACFE457 /* Euclid Circular B Medium.ttf in Resources */,
+				E0A5364E2244418C8836E5A5 /* Euclid Circular B Regular.ttf in Resources */,
+				C910816495B245C6A2DB2A6E /* Euclid Circular B SemiBold Italic.ttf in Resources */,
+				69E1DBA7A5EC4178BE3B55B2 /* Euclid Circular B SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
