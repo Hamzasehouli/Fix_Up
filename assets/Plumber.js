@@ -1,8 +1,10 @@
 import * as React from 'react';
 import Svg, {G, Path} from 'react-native-svg';
+import {Displayer} from '../src/utils';
+const {setWidth, setHeight} = Displayer;
 
 const SvgComponent = () => (
-  <Svg xmlns="http://www.w3.org/2000/svg" width={67.98} height={93.625}>
+  <Svg xmlns="http://www.w3.org/2000/svg" width={50} height={50}>
     <G data-name="Plumber Master Master cartoon">
       <Path
         data-name="Path 378"
