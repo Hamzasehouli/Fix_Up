@@ -10,11 +10,12 @@ import {
 import React from 'react';
 import {Displayer} from '../utils';
 import {Colors, Waves, Images, Fonts} from '../constants';
-import {Box} from '../components';
+import {Box, Btn} from '../components';
 
 const {setWidth, setHeight} = Displayer;
 const logoSize = 35;
-const HomeScreen = () => {
+
+const HomeScreen = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar backgroundColor={'white'} barStyle={'dark-content'} />
@@ -55,6 +56,7 @@ const HomeScreen = () => {
           <Box> - Lorem ipsum dolor sit amet. </Box>
           <Box> - Lorem ipsum dolor sit amet. </Box>
           <Box> - Lorem ipsum dolor sit amet. </Box>
+          <Btn navigation={navigation}>Next</Btn>
         </View>
       </ScrollView>
       {/* End Body */}
