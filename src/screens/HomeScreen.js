@@ -11,14 +11,23 @@ import React from 'react';
 import {Displayer} from '../utils';
 import {Colors, Waves, Images, Fonts} from '../constants';
 import {Box, Btn} from '../components';
+import {CommonActions} from '@react-navigation/native';
 
 const {setWidth, setHeight} = Displayer;
 const logoSize = 35;
 
 const HomeScreen = ({navigation}) => {
+  const toServicesScreen = () => {
+    navigation.dispatch(
+      CommonActions.reset({
+        index: 0,
+        routes: [{name: 'Services'}],
+      }),
+    );
+  };
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar backgroundColor={'white'} barStyle={'dark-content'} />
+      <StatusBar backgroundColor={Colors.Primary} barStyle={'dark-content'} />
       {/* Header */}
       <View style={{...StyleSheet.absoluteFillObject}}>
         <Waves />
@@ -56,7 +65,7 @@ const HomeScreen = ({navigation}) => {
           <Box> - Lorem ipsum dolor sit amet. </Box>
           <Box> - Lorem ipsum dolor sit amet. </Box>
           <Box> - Lorem ipsum dolor sit amet. </Box>
-          <Btn navigation={navigation}>Next</Btn>
+          <Btn navigation={toServicesScreen}>Next</Btn>
         </View>
       </ScrollView>
       {/* End Body */}
