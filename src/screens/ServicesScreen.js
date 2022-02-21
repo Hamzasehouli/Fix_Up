@@ -1,20 +1,13 @@
-import {StatusBar, StyleSheet, Text, View} from 'react-native';
+import {Image, StatusBar, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {
-  Colors,
-  Fonts,
-  Electrician,
-  Icone4,
-  IconeThree,
-  Plumber,
-} from '../constants';
+import {Colors, Fonts, Images} from '../constants';
 import {Displayer} from '../utils';
-
+const {Plumber, Electrician, RGB_AI, Fii} = Images;
 const {setWidth, setHeight} = Displayer;
 const allServices = [
   {ID: 0, Name: 'Text', Icon: Electrician},
-  {ID: 1, Name: 'Text', Icon: Icone4},
-  {ID: 2, Name: 'Text', Icon: IconeThree},
+  {ID: 1, Name: 'Text', Icon: RGB_AI},
+  {ID: 2, Name: 'Text', Icon: Fii},
   {ID: 3, Name: 'Text', Icon: Plumber},
 ];
 
@@ -34,28 +27,35 @@ const ServicesScreen = ({navigation}) => {
           </Text>
         </View>
         <View style={styles.Services}>
-          {allServices.map(Service => {
-            return (
-              <View
-                key={Service.ID}
-                style={[
-                  styles.Cir,
-                  {
-                    marginHorizontal:
-                      Service.ID == 0 || Service.ID == 3 ? 0 : setWidth(2.5),
-                    transform: [
-                      {
-                        translateY: Service.ID == 0 || Service.ID == 3 ? 70 : 0,
-                      },
-                    ],
-                  },
-                ]}>
-                <View>
-                  <Service.Icon />
+          <View style={{flexDirection: 'row'}}>
+            {allServices.map(Service => {
+              return (
+                <View
+                  key={Service.ID}
+                  style={[
+                    styles.Cir,
+                    {
+                      marginHorizontal:
+                        Service.ID == 0 || Service.ID == 3 ? 0 : setWidth(2.5),
+                      transform: [
+                        {
+                          translateY:
+                            Service.ID == 0 || Service.ID == 3 ? 70 : 0,
+                        },
+                      ],
+                    },
+                  ]}>
+                  <View>
+                    <Image
+                      source={Service.Icon}
+                      style={{resizeMode: 'contain', height: 60, width: 60}}
+                    />
+                  </View>
                 </View>
-              </View>
-            );
-          })}
+              );
+            })}
+          </View>
+          <View style={styles.Builder}></View>
         </View>
       </View>
     </>
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     height: setHeight(55),
     width: setWidth(100),
     marginVertical: 20,
-    flexDirection: 'row',
+
     paddingHorizontal: setWidth(5),
   },
   Cir: {
@@ -90,4 +90,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  Builder: {},
 });
