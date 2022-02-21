@@ -2,7 +2,8 @@ import {Image, StatusBar, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {Colors, Fonts, Images} from '../constants';
 import {Displayer} from '../utils';
-const {Plumber, Electrician, RGB_AI, Fii} = Images;
+const {Plumber, Electrician, RGB_AI, Fii, Builder, ManageAccounts, Person} =
+  Images;
 const {setWidth, setHeight} = Displayer;
 const allServices = [
   {ID: 0, Name: 'Text', Icon: Electrician},
@@ -55,7 +56,26 @@ const ServicesScreen = ({navigation}) => {
               );
             })}
           </View>
-          <View style={styles.Builder}></View>
+          <View style={styles.Builder}>
+            <Image
+              source={Builder}
+              style={{resizeMode: 'contain', height: 200, width: 200}}
+            />
+          </View>
+          <View style={{flexDirection: 'row', alignSelf: 'center'}}>
+            <View style={[styles.Cir, {marginHorizontal: 10}]}>
+              <Image
+                source={ManageAccounts}
+                style={{resizeMode: 'contain', height: 40, width: 40}}
+              />
+            </View>
+            <View style={[styles.Cir, {marginHorizontal: 10}]}>
+              <Image
+                source={Person}
+                style={{resizeMode: 'contain', height: 40, width: 40}}
+              />
+            </View>
+          </View>
         </View>
       </View>
     </>
@@ -74,7 +94,6 @@ const styles = StyleSheet.create({
     marginVertical: 30,
   },
   Services: {
-    backgroundColor: Colors.Light,
     height: setHeight(55),
     width: setWidth(100),
     marginVertical: 20,
@@ -90,5 +109,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  Builder: {},
+  Builder: {alignItems: 'center'},
 });
